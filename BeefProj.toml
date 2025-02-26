@@ -1,0 +1,10 @@
+FileVersion = 1
+
+[Project]
+Name = "iniparser-beef"
+TargetType = "BeefLib"
+StartupObject = "iniparser_beef.Program"
+
+[Configs.Debug.Win64]
+BeefLibType = "Static"
+LibPaths = ["$(ProjectDir)/lib/libiniparser.lib"]

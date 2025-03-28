@@ -13,7 +13,7 @@
 using System;
 using System.Interop;
 
-namespace iniparserBeef;
+namespace iniparser;
 
 extension iniparser
 {

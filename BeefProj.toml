@@ -2,9 +2,11 @@ FileVersion = 1
 
 [Project]
 Name = "iniparser-beef"
-TargetType = "BeefLib"
-StartupObject = "iniparser_beef.Program"
+DefaultNamespace = "iniparser"
 
 [Configs.Debug.Win64]
 BeefLibType = "Static"
-LibPaths = ["$(ProjectDir)/lib/libiniparser.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\iniparser_d.lib"]
+
+[Configs.Release.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\iniparser.lib"]

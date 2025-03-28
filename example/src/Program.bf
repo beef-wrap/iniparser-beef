@@ -1,6 +1,6 @@
 using System;
 using System.Diagnostics;
-using static iniparserBeef.iniparser;
+using static iniparser.iniparser;
 
 namespace example;
 

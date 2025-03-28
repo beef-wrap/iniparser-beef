@@ -9,7 +9,7 @@
 using System;
 using System.Interop;
 
-namespace iniparserBeef;
+namespace iniparser;
 
 public static class iniparser
 {
@@ -17,7 +17,7 @@ public static class iniparser
 	typealias long = c_long;
 	typealias unsigned = c_uint;
 
-	typealias size_t = c_uintptr;
+	typealias size_t = uint;
 	typealias int64_t = int64;
 	typealias uint64_t = uint64;
 
